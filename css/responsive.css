@@ -1,5 +1,5 @@
 /* tablet and laptop device screen */
-@media screen and (max-width : 992px) {
+@media screen and (max-width : 1140px) {
     .team_container{
         flex-direction: column;
     }
@@ -15,6 +15,22 @@
     .features_btn{
         margin: -10rem 0 0 0;
     }
+    .experience_container{
+        margin-top: 5rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .sponspors_company{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+
+
+
+/* tablet and laptop device screen */
+@media screen and (max-width : 992px) {
     .experience_container{
         margin-top: 5rem;
         grid-template-columns: repeat(2, 1fr);

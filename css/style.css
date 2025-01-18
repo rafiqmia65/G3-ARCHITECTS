@@ -225,7 +225,7 @@ p{
     margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 12.4rem;
+    gap: 5rem;
 }
 .experience_content{
     padding: 4rem;
